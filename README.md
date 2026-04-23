@@ -9,10 +9,10 @@ Mettre en place une instance simple, maintenable et accessible depuis un domaine
 ## Contenu du projet
 
 - `docker-compose.yml` : orchestration des services.
-- `nginx.conf` : configuration Nginx actuelle.
+- `Caddyfile` : configuration Caddy (reverse proxy + HTTPS automatique).
 - `README.md` : documentation du setup.
 
 ## TODO
 
-- [ ] Demande d'un hostname.
-- [ ] Remplacer Nginx par Caddy pour gérer automatiquement les certificats Let's Encrypt.
+- [x] Demande d'un hostname.
+- [x] Remplacer Nginx par Caddy pour gérer automatiquement les certificats Let's Encrypt.
