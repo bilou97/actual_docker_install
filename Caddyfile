@@ -1,4 +1,4 @@
-{$DOMAIN} {
+actual.{$DOMAIN} {
     reverse_proxy actual:5006 {
         header_down Cross-Origin-Opener-Policy "same-origin"
         header_down Cross-Origin-Embedder-Policy "require-corp"
